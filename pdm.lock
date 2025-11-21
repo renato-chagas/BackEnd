@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:fcc5b5bfb9c02196ec66ddee3cdec5b1f377844329d67ce8449f132c033278ca"
+content_hash = "sha256:b266629c5bcce768d6c23d5f44b9e7ed8ea8e1c266dcc81867e8c2b4a6292561"
 
 [[metadata.targets]]
 requires_python = "==3.12.*"
@@ -38,6 +38,20 @@ dependencies = [
 files = [
     {file = "django-5.2.8-py3-none-any.whl", hash = "sha256:37e687f7bd73ddf043e2b6b97cfe02fcbb11f2dbb3adccc6a2b18c6daa054d7f"},
     {file = "django-5.2.8.tar.gz", hash = "sha256:23254866a5bb9a2cfa6004e8b809ec6246eba4b58a7589bc2772f1bcc8456c7f"},
+]
+
+[[package]]
+name = "djangorestframework"
+version = "3.16.1"
+requires_python = ">=3.9"
+summary = "Web APIs for Django, made easy."
+groups = ["default"]
+dependencies = [
+    "django>=4.2",
+]
+files = [
+    {file = "djangorestframework-3.16.1-py3-none-any.whl", hash = "sha256:33a59f47fb9c85ede792cbf88bde71893bcda0667bc573f784649521f1102cec"},
+    {file = "djangorestframework-3.16.1.tar.gz", hash = "sha256:166809528b1aced0a17dc66c24492af18049f2c9420dbd0be29422029cfc3ff7"},
 ]
 
 [[package]]

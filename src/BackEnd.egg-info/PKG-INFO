@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: BackEnd
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-email: renato-chagas <renatochagas.m@gmail.com>
+License: MIT
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+Requires-Dist: django>=5.2.8
+Requires-Dist: djangorestframework>=3.16.1
+
+# BackEnd
